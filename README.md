@@ -1,5 +1,4 @@
-# handsomeYe.seekbar.picturedisplay
-图片展示器
+# 图片展示器
 
 ### 功能
 
@@ -12,4 +11,6 @@
 
 -------------------------------
 
+### 文档地址：
 
+http://www.jianshu.com/p/93e03b77f7d9
