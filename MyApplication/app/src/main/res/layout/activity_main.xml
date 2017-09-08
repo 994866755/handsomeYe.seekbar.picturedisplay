@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cccccc"
+    android:orientation="vertical"
+    tools:context="com.example.kylinarm.picturedisplay.MainActivity">
+
+    <com.example.kylinarm.picturedisplay.PictureDisplayLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/pdl"
+        app:count = "5"
+        app:showtype = "add"
+        android:background="#ffffff"
+        >
+    </com.example.kylinarm.picturedisplay.PictureDisplayLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="打印数组"
+        android:id="@+id/btn_log"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_log"
+        />
+
+</LinearLayout>

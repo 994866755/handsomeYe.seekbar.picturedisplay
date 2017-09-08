@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.kylinarm.picturedisplay.SquareRelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_add"
+        >
+        <ImageButton
+            android:layout_margin="10dp"
+            android:background="@drawable/bg_dash_gap_border"
+            android:src="@mipmap/main_home_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_add_img"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iv_content"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/bg_pic_frame"
+            />
+
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/login_input_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </com.example.kylinarm.picturedisplay.SquareRelativeLayout >
+</LinearLayout>
